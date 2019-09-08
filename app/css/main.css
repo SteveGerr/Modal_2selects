@@ -110,7 +110,8 @@ body {
       border: none;
       -webkit-border-radius: 15px;
               border-radius: 15px;
-      font-size: 14px; }
+      font-size: 14px;
+      cursor: pointer; }
       .copy-position__btn-wrap .btn-copy {
         background: #318CCA;
         color: #ffffff;
@@ -119,3 +120,6 @@ body {
         background: #ffffff;
         border: 1px solid #318CCA;
         color: #318CCA; }
+        .copy-position__btn-wrap .btn-cancel:hover {
+          background: #318CCA;
+          color: #ffffff; }
