@@ -57,6 +57,7 @@ body {
     width: 100%;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
     .btn {
       width: 160px;
       height: 32px;
@@ -66,9 +67,11 @@ body {
       &-copy {
         background: #318CCA;
         color: #ffffff;
+        margin-right: 25px;
       } 
       &-cancel {
         background: #ffffff;
+        border: 1px solid #318CCA;
         color: #318CCA;
       }
     }
